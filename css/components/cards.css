@@ -27,8 +27,13 @@
   /* For a screen < 960px, this CSS will be read */
   .cards .card {
     width: 200px;
+    height: 150px;
   }
   .cards .card img{
     height: 100px;
+  }
+
+  .cards .card p{
+    font-size: 10px;
   }
 }
