@@ -16,9 +16,19 @@
 
 .card img{
   height: 200px;
-  width: 300px;
+  width: 100%;
 }
 
 .card p{
   margin: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards .card {
+    width: 200px;
+  }
+  .cards .card img{
+    height: 100px;
+  }
 }
