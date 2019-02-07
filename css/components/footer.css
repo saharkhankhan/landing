@@ -1,0 +1,32 @@
+.footer.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+
+}
+
+.footer{
+/*  display: flex;
+  align-items: center;*/
+  background-color: #373331;
+  text-align: center;
+}
+
+.footer h2{
+  padding-top: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px grey;
+}
+
+
+/*.footer .list-inline > li {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer .list-inline{
+    list-style: none;
+  padding-left: 0px;
+}
+*/

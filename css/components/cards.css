@@ -1,0 +1,24 @@
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.cards .card{
+  height: 270px;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card img{
+  height: 200px;
+  width: 300px;
+}
+
+.card p{
+  margin: 10px;
+}

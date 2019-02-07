@@ -1,0 +1,21 @@
+.banner{
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  transition: 1s;
+}
+
+.banner .container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.banner .container h1{
+  color:white;
+}
+
+.banner .container p{
+  color: white;
+}
